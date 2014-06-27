@@ -104,7 +104,7 @@ namespace StarFieldDemo
 		protected override void Draw(GameTime gameTime)
 		{
 			// Clear to Black
-			graphics.GraphicsDevice.Clear(Color.DarkBlue);
+			graphics.GraphicsDevice.Clear(new Color(0,0,64));
 
 			// Calculate Proper Viewport according to Aspect Ratio
 			Resolution.ResetViewport();
